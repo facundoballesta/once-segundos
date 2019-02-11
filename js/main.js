@@ -1,6 +1,8 @@
 $(document).ready(function(){
 	$(".pages").hide();
-	$("#home").show	("slow");
+	$("#logo").hide();
+	$("#home").show	("fast");
+	$("#logo").fadeIn("slow");
 });
 
 function mostrarId(id){
